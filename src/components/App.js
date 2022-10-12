@@ -4,6 +4,7 @@ import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
+// update this for functional components
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
